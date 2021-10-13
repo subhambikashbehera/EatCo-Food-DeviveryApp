@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "302417394446",
+    "firebase_url": "https://local-market-7abf5.firebaseio.com",
+    "project_id": "local-market-7abf5",
+    "storage_bucket": "local-market-7abf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302417394446:android:d8cff1767208f03a30b55f",
+        "android_client_info": {
+          "package_name": "com.edusy.eatco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302417394446-tvjh1h28gj8vdj7ccbaokvsqbf67rugl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlbQEDHXHyd_E56ESf6ld4JhMafQvgWls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302417394446-tvjh1h28gj8vdj7ccbaokvsqbf67rugl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

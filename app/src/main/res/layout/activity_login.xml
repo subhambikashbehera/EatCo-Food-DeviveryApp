@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authentication.Login"
+    android:background="#FBF9F9"
+    >
+    <ImageView
+
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logostoretodoor"
+        android:id="@+id/logo"
+        android:layout_above="@+id/tila"
+        />
+
+
+<RelativeLayout
+    android:id="@+id/tila"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    >
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:id="@+id/lemail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:ems="10"
+            android:hint="Enter The Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#EF9808"
+            android:textColorHint="#ECE4E4"
+            android:textStyle="bold"
+            android:background="#0B0A0A"
+            android:layout_marginBottom="10dp"
+            />
+
+        <EditText
+            android:padding="8dp"
+            android:id="@+id/lpassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/lemail"
+            android:ems="10"
+            android:hint="Enter The Password"
+            android:inputType="textPassword"
+            android:textColor="#EF9808"
+            android:textColorHint="#FBFAFA"
+            android:textStyle="bold"
+            android:background="#0B0A0A"
+
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerroot"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <ProgressBar
+                android:id="@+id/lprogressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/llogin"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="LOGIN"
+                android:textColor="#0C0C0C"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:backgroundTint="#D304A6"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lregisterrr"
+        android:layout_below="@+id/registerroot"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Not Having Account \n Register?"
+        app:backgroundTint="#2F023A"
+        android:textColor="#FDF6F6"
+        />
+
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/background12"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/registerbackground" />
+
+</RelativeLayout>

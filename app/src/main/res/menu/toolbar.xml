@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="ABOUT"
+        app:showAsAction="never"
+        android:id="@+id/about"
+        />
+
+    <item android:title="SHARE"
+        app:showAsAction="never"
+            android:id="@+id/share"
+        />
+
+    <item android:title="SHARE"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:id="@+id/share2"
+        />
+
+    <item android:title="LOGOUT"
+        app:showAsAction="never"
+        android:id="@+id/logout"
+        />
+
+
+
+</menu>

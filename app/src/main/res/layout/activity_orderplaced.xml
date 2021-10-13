@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Orderplaced">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout1"
+    >
+
+        <ImageButton
+            android:background="#fff"
+            android:layout_marginRight="45dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/cart"
+            android:id="@+id/orderplacedtwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/orderplacedtwo"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0C0C0C"
+            android:text="MY ORDERS"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+
+
+
+    <ImageView
+        android:layout_below="@+id/layout1"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/orderplaced" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView3"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MYORDERS"
+        android:textColor="#0C0C0C"
+        android:text="CONGRATULATION"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/MYORDERS"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MYORDERSs"
+        android:textColor="#0C0C0C"
+        android:text="Your Order Has Been Placed Successfully"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/MYORDERSs"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MYORDERSsss"
+        android:textColor="#0C0C0C"
+        android:text="KEEP SHOPPING"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/orderplaced"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MYORDERSsss"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Go To Home Page"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/teal_200" />
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cart"
+    android:orientation="vertical"
+    android:background="#070707"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MYORDERS"
+        android:textColor="#0C0C0C"
+        android:text="@string/my_orders"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#2BD5F3"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/cart"
+        android:layout_marginStart="8dp" />
+
+
+</LinearLayout>
